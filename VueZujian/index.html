@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<div id="warp" >
+			{{ message }}
+			{{ message2 }}
+			
+			<my-header
+				:todo = "message"
+			    :chu-hhhh = "message2"
+			    @hed
+				>
+			</my-header>
+			<div class="my-header-left" v-if="flg">
+ 	         <a>1</a><a>1</a>
+ 	        </div>
+			
+			<div   @click="handleFunction">
+ 	                     事件监听
+ 	        </div>
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="js/vue.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+</html>
